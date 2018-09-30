@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-29T16:12:05.462Z</updated>
+  <updated>2018-09-30T04:13:03.105Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>更换hexo主题</title>
+    <link href="http://yoursite.com/2018/09/30/%E6%9B%B4%E6%8D%A2hexo%E4%B8%BB%E9%A2%98/"/>
+    <id>http://yoursite.com/2018/09/30/更换hexo主题/</id>
+    <published>2018-09-30T03:57:09.000Z</published>
+    <updated>2018-09-30T04:13:03.105Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h4><ul><li>查看好你想要的主题</li><li>然后下载下来<h4 id="开始工作"><a href="#开始工作" class="headerlink" title="开始工作"></a>开始工作</h4></li><li>我们先准备一个新的主题，比较有名的就是NexT了，下面以他为例：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">下载主题，输入命令</span><br><span class="line">git clone https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure></li></ul><p>修改显示的主题<br>在项目目录下查找_config.yml找到theme<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">title:    网站名称</span><br><span class="line">subtitle:   子名称</span><br><span class="line">description: 网站简介</span><br><span class="line">author:      作者名</span><br><span class="line">language:  简体汉语</span><br><span class="line">timezone: 时区</span><br></pre></td></tr></table></figure></p><p>设置Scheme<br>在主题目录下找到_config.yml可以设置Scheme主题<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Schemes</span><br><span class="line">#scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">scheme: Pisces</span><br><span class="line">#scheme: Gemini</span><br></pre></td></tr></table></figure></p><p>设置菜单<br>同样在主题目录的配置文件中menu配置<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: / || home   /为url链接。home为显示的图标</span><br><span class="line">  #about: /about/ || user</span><br><span class="line">  tags: /tags/ || tags</span><br><span class="line">  categories: /categories/ || th</span><br><span class="line">  archives: /archives/ || archive</span><br><span class="line">  #schedule: /schedule/ || calendar</span><br><span class="line">  #sitemap: /sitemap.xml || sitemap</span><br><span class="line">  #commonweal: /404/ || heartbeat</span><br></pre></td></tr></table></figure></p><p>然后可以新生成page<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo new page tags 生成标签页 路径</span><br><span class="line">hexo new page categories  生成分类页面</span><br></pre></td></tr></table></figure></p><p>然后就可以测试了<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s -debug</span><br></pre></td></tr></table></figure></p><p>基本的设置就是这样，如果还要有什么改动可以参考<a href="http://theme-next.iissnan.com/theme-settings.html进行配置" target="_blank" rel="noopener">http://theme-next.iissnan.com/theme-settings.html进行配置</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;查看好你想要的主题&lt;/li&gt;
+&lt;li&gt;然后下载下来&lt;h4 id=&quot;开始工作&quot;&gt;&lt;a href=&quot;#开始工作&quot; c
+      
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hexo github 搭建博客</title>
     <link href="http://yoursite.com/2018/09/30/settingup%20the%20environment/"/>
     <id>http://yoursite.com/2018/09/30/settingup the environment/</id>
     <published>2018-09-29T16:11:26.000Z</published>
-    <updated>2018-09-29T16:12:05.462Z</updated>
+    <updated>2018-09-30T03:54:48.006Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="hexo-github-搭建博客"><a href="#hexo-github-搭建博客" class="headerlink" title="hexo github 搭建博客"></a>hexo github 搭建博客</h1><hr><p><strong>搭建环境</strong></p><blockquote><ul><li>git</li><li>node.js</li></ul></blockquote><p><strong>搭建命令</strong> </p><blockquote><ul><li>hexo init  初始化项目</li><li>hexo g     部署之前预先生成静态文件</li><li>hexo d     部署项目</li><li>hexo s     本地预览    localhost:4000</li></ul></blockquote>]]></content>
+    <content type="html"><![CDATA[<h1 id="hexo-github-搭建博客"><a href="#hexo-github-搭建博客" class="headerlink" title="hexo github 搭建博客"></a>hexo github 搭建博客</h1><hr><p><strong>搭建环境</strong></p><blockquote><ul><li>git</li><li>node.js</li></ul></blockquote><p><strong>搭建命令</strong> </p><blockquote><ul><li>hexo init  初始化项目</li><li>hexo g     部署之前预先生成静态文件</li><li>hexo d     部署项目</li><li>hexo s     本地预览    localhost:4000</li></ul></blockquote><p> 我的hexo博客是部署在github上的，之前上传到github上真是废了九牛二虎之力，配置ssh出现了一系列的问题，在这里我们来梳理一下hexo搭建的过程：</p><h1 id="首先搭建环境："><a href="#首先搭建环境：" class="headerlink" title="首先搭建环境："></a>首先搭建环境：</h1><h2 id="1-1安装git"><a href="#1-1安装git" class="headerlink" title="1.1安装git"></a>1.1安装git</h2><p> —— 安装Git，正常配置就好  <a href="https://git-scm.com/" target="_blank" rel="noopener">Git的下载地址</a><br><img src="https://wx2.sinaimg.cn/mw690/006oemdXly1fvrdg7wpsyj30g60633yk.jpg" alt="enter description here"></p><ul><li>请点击Nest<br><img src="//wx3.sinaimg.cn/mw690/006oemdXly1fvrdvyfyznj30dz0atjro.jpg" alt="enter description here"></li><li>接着点击两次Next,会出现下图  ↓↓↓<br><img src="//wx2.sinaimg.cn/mw690/006oemdXly1fvrdvyh9n1j30dz0atmxi.jpg" alt="enter description here"></li><li>然后深深呼吸一口气，呼吸期间点击Next，然后你就会发现点着点着就出现个Install，没错，我们堵的，不是，我们等的就是Install这个小子，<br><img src="//wx3.sinaimg.cn/mw690/006oemdXly1fvrdvyh5htj30dz0atq34.jpg" alt="enter description here"></li><li>安装完成之后，单击鼠标右键你就会看到:</li><li>Git GUI Here </li><li>Git Bash Here</li><li>安装成功</li></ul><p><img src="//wx4.sinaimg.cn/orj360/006oemdXly1fvrebvyfhwj307j0alt91.jpg" alt="enter description here"></p><h2 id="1-2安装Node-js"><a href="#1-2安装Node-js" class="headerlink" title="1.2安装Node.js"></a>1.2安装Node.js</h2><ul><li><a href="https://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="noopener">Node.js 安装———菜鸟教程，不再叙述</a></li></ul><h1 id="2-安装hexo"><a href="#2-安装hexo" class="headerlink" title="2.安装hexo"></a>2.安装hexo</h1><h4 id="在本地新建文件夹，命名规范，要用英文，文件夹名称我们这里就叫做hexodemo，在hexodemo文件夹中右键Git-Bash-Here"><a href="#在本地新建文件夹，命名规范，要用英文，文件夹名称我们这里就叫做hexodemo，在hexodemo文件夹中右键Git-Bash-Here" class="headerlink" title="在本地新建文件夹，命名规范，要用英文，文件夹名称我们这里就叫做hexodemo，在hexodemo文件夹中右键Git Bash Here"></a>在本地新建文件夹，命名规范，要用英文，文件夹名称我们这里就叫做hexodemo，在hexodemo文件夹中右键Git Bash Here</h4><p><img src="//wx1.sinaimg.cn/orj360/006oemdXly1fvreuoi0efj30dw0fxaas.jpg" alt="enter description here"></p><ul><li>首先下载hexo,在git命令行中输入 npm install -g hexo，等待的过程不要着急，五分钟之后就安装好了。</li></ul><p><img src="https://upload-images.jianshu.io/upload_images/1531909-0b9d56643f6b27cc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/648/format/webp" alt="enter description here"></p><ul><li>输入命令：hexo init 初始化hexo<br><img src="//wx4.sinaimg.cn/orj360/006oemdXly1fvrf8d0mraj30fp0a7jrt.jpg" alt="enter description here"></li><li>打开hexo文件夹，在_config.yml,进行基础配置<a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">查看hexo官方文档</a><br><img src="https://upload-images.jianshu.io/upload_images/1531909-cd5743eda172deca.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/663/format/webp" alt="enter description here"><br><a href="https://hexo.io/themes/" target="_blank" rel="noopener">浏览更多主题</a><br><a href="https://hexo.io/themes/" target="_blank" rel="noopener">查看如何更换主题</a></li></ul>]]></content>
     
     <summary type="html">
     
