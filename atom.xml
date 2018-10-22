@@ -68,6 +68,32 @@
   </entry>
   
   <entry>
+    <title>case</title>
+    <link href="http://yoursite.com/2018/10/08/hhhh/"/>
+    <id>http://yoursite.com/2018/10/08/hhhh/</id>
+    <published>2018-10-08T12:19:37.000Z</published>
+    <updated>2018-10-22T09:55:48.314Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>123456789</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;123456789&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="小case" scheme="http://yoursite.com/categories/%E5%B0%8Fcase/"/>
+    
+    
+      <category term="hexo github 搭建博客" scheme="http://yoursite.com/tags/hexo-github-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
     <title>更换hexo主题</title>
     <link href="http://yoursite.com/2018/09/30/%E6%9B%B4%E6%8D%A2hexo%E4%B8%BB%E9%A2%98/"/>
     <id>http://yoursite.com/2018/09/30/更换hexo主题/</id>
