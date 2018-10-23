@@ -90,7 +90,7 @@
 <meta property="og:description" content="总结一下左边固定的方法，老生常谈的是float方法，bfc方法，也有css3中的flex布局和grid布局,并非所有的布局都会在开发中使用 常用的宽度自适应的方法通常是利用了block水平的元素宽度能够随父容器调节的流动特性，另外一种思路是利用CSS中的calc()方法来动态设定宽度。还有一种思路是，利用CSS中的新型布局flex layout与grid layout。 首先创建html布局最基本">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://yoursite.com/2018/10/09/七种实现左侧固定，右侧适应两栏自适应的方法/mahua-logo.jpg">
-<meta property="og:updated_time" content="2018-10-22T08:21:50.653Z">
+<meta property="og:updated_time" content="2018-10-23T08:44:02.800Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="七种实现左侧固定，右侧适应两栏自适应的方法">
 <meta name="twitter:description" content="总结一下左边固定的方法，老生常谈的是float方法，bfc方法，也有css3中的flex布局和grid布局,并非所有的布局都会在开发中使用 常用的宽度自适应的方法通常是利用了block水平的元素宽度能够随父容器调节的流动特性，另外一种思路是利用CSS中的calc()方法来动态设定宽度。还有一种思路是，利用CSS中的新型布局flex layout与grid layout。 首先创建html布局最基本">
@@ -234,6 +234,16 @@
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-音乐">
+          <a href="/music/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-music"></i> <br />
+            
+            音乐
+          </a>
+        </li>
+      
 
       
         <li class="menu-item menu-item-search">
@@ -304,7 +314,7 @@
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/10/09/七种实现左侧固定，右侧适应两栏自适应的方法/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="supermanbai">
+      <meta itemprop="name" content="Supermanbai">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/avatar.jpg">
     </span>
@@ -394,8 +404,8 @@
 <p>常用的宽度自适应的方法通常是利用了<code>block</code>水平的元素宽度能够随父容器调节的流动特性，另外一种思路是利用CSS中的<code>calc()</code>方法来动态设定宽度。还有一种思路是，利用CSS中的新型布局<code>flex layout</code>与<code>grid layout</code>。</p>
 <h3 id="首先创建html布局最基本的样式"><a href="#首先创建html布局最基本的样式" class="headerlink" title="首先创建html布局最基本的样式"></a>首先创建html布局最基本的样式</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;wrapper&quot; id=&quot;wrapper&quot;&gt;</span><br><span class="line">  &lt;div class=&quot;left&quot;&gt;</span><br><span class="line">    左边固定宽度，高度不固定 &lt;/br&gt; &lt;/br&gt;&lt;/br&gt;&lt;/br&gt;高度有可能会很小，也可能很大。</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">  &lt;div class=&quot;right&quot;&gt;</span><br><span class="line">    这里的内容可能比左侧高，也可能比左侧低。宽度需要自适应。&lt;/br&gt;</span><br><span class="line">    基本的样式是，两个div相距20px, 左侧div宽 120px</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
 <p>基本的样式是，两个盒子相距20px, 左侧盒子宽 120px，右侧盒子宽度自适应。基本的CSS样式如下:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">.wrapper &#123;</span><br><span class="line">    padding: 15px 20px;</span><br><span class="line">    border: 1px dashed #ff6c60;</span><br><span class="line">&#125;</span><br><span class="line">.left &#123;</span><br><span class="line">    width: 120px;</span><br><span class="line">    border: 5px solid #ddd;</span><br><span class="line">&#125;</span><br><span class="line">.right &#123;</span><br><span class="line">    margin-left: 20px;</span><br><span class="line">    border: 5px solid #ddd;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">.wrapper &#123;</span><br><span class="line">    padding: 15px 20px;</span><br><span class="line">    border: 1px dashed #ff6c60;</span><br><span class="line">&#125;</span><br><span class="line">.left &#123;</span><br><span class="line">    width: 120px;</span><br><span class="line">    border: 5px solid #ddd;</span><br><span class="line">&#125;</span><br><span class="line">.right &#123;</span><br><span class="line">    margin-left: 20px;</span><br><span class="line">    border: 5px solid #ddd;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>下面的代码都是基于这套基本代码做覆盖，通过给容器添加不同的类来实现效果。</p>
 <h3 id="双inline-block方案"><a href="#双inline-block方案" class="headerlink" title="  双inline-block方案 "></a><font color="#228207">  双inline-block方案 </font></h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">.wrapper-inline-block &#123;</span><br><span class="line">    box-sizing: content-box;</span><br><span class="line">    font-size: <span class="number">0</span>;    <span class="comment">// 消除空格的影响</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.wrapper-inline-block .left,</span><br><span class="line">.wrapper-inline-block .right &#123;</span><br><span class="line">    display: inline-block;</span><br><span class="line">    vertical-align: top;    <span class="comment">// 顶端对齐</span></span><br><span class="line">    font-size: <span class="number">14</span>px;</span><br><span class="line">    box-sizing: border-box;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.wrapper-inline-block .right &#123;</span><br><span class="line">    width: calc(<span class="number">100</span>% - <span class="number">140</span>px);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>这种方法是通过width: calc(100% - 140px)来动态计算右侧盒子的宽度。需要知道右侧盒子距离左边的距离，以及左侧盒子具体的宽度(content+padding+border)，以此计算父容器宽度的100%需要减去的数值。同时，还需要知道右侧盒子的宽度是否包含border的宽度。<br>在这里，为了简单的计算右侧盒子准确的宽度，设置了子元素的box-sizing:border-box;以及父元素的box-sizing: content-box;。<br>同时，作为两个inline-block的盒子，必须设置vertical-align来使其顶端对齐。<br>另外，为了准确地应用计算出来的宽度，需要消除div之间的空格，需要通过设置父容器的font-size: 0;,或者用注释消除html中的空格等方法。</p>
@@ -546,9 +556,9 @@
             
               <img class="site-author-image" itemprop="image"
                 src="/images/avatar.jpg"
-                alt="supermanbai" />
+                alt="Supermanbai" />
             
-              <p class="site-author-name" itemprop="name">supermanbai</p>
+              <p class="site-author-name" itemprop="name">Supermanbai</p>
               <p class="site-description motion-element" itemprop="description">种一棵树最好的时间是十年前，其次，就是现在。</p>
           </div>
 
@@ -645,7 +655,7 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">supermanbai</span>
+  <span class="author" itemprop="copyrightHolder">Supermanbai</span>
 
   
 </div>
