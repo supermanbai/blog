@@ -44,29 +44,6 @@
   </entry>
   
   <entry>
-    <title>Bootstrap导航条遇到的小case</title>
-    <link href="http://yoursite.com/2018/10/08/bootstrap%E5%AF%BC%E8%88%AA%E6%9D%A1%E9%97%AE%E9%A2%98/"/>
-    <id>http://yoursite.com/2018/10/08/bootstrap导航条问题/</id>
-    <published>2018-10-08T12:19:37.000Z</published>
-    <updated>2018-10-23T08:44:38.499Z</updated>
-    
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="Bootstrap导航条的下拉列表显示不完全"><a href="#Bootstrap导航条的下拉列表显示不完全" class="headerlink" title="Bootstrap导航条的下拉列表显示不完全"></a>Bootstrap导航条的下拉列表显示不完全</h1><hr><h2 id="类名navbar不能设置高度"><a href="#类名navbar不能设置高度" class="headerlink" title="类名navbar不能设置高度"></a>类名navbar不能设置高度</h2><p><img src="https://wx1.sinaimg.cn/mw690/006oemdXly1fw13aq014cj30af0eat8v.jpg" alt="mahua"></p><a id="more"></a><p>设置高度就会让nav下拉的过程中出现导航条（如图右侧灰色的部分）</p><h2 id="bootstrap-中下拉列表中的两个div要同级-BING-QIE-一个设置position-relative-一个设置position-solutate"><a href="#bootstrap-中下拉列表中的两个div要同级-BING-QIE-一个设置position-relative-一个设置position-solutate" class="headerlink" title="bootstrap 中下拉列表中的两个div要同级 BING QIE 一个设置position:relative;一个设置position:solutate"></a>bootstrap 中下拉列表中的两个div要同级 BING QIE 一个设置position:relative;一个设置position:solutate</h2><p><img src="https://wx2.sinaimg.cn/mw690/006oemdXly1fw13nszpunj30hf07o3yi.jpg" alt="mahua"></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;Bootstrap导航条的下拉列表显示不完全&quot;&gt;&lt;a href=&quot;#Bootstrap导航条的下拉列表显示不完全&quot; class=&quot;headerlink&quot; title=&quot;Bootstrap导航条的下拉列表显示不完全&quot;&gt;&lt;/a&gt;Bootstrap导航条的下拉列表显示不完全&lt;/h1&gt;&lt;hr&gt;
-&lt;h2 id=&quot;类名navbar不能设置高度&quot;&gt;&lt;a href=&quot;#类名navbar不能设置高度&quot; class=&quot;headerlink&quot; title=&quot;类名navbar不能设置高度&quot;&gt;&lt;/a&gt;类名navbar不能设置高度&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://wx1.sinaimg.cn/mw690/006oemdXly1fw13aq014cj30af0eat8v.jpg&quot; alt=&quot;mahua&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="小case" scheme="http://yoursite.com/categories/%E5%B0%8Fcase/"/>
-    
-    
-      <category term="hexo github 搭建博客" scheme="http://yoursite.com/tags/hexo-github-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
     <title>case</title>
     <link href="http://yoursite.com/2018/10/08/hhhh/"/>
     <id>http://yoursite.com/2018/10/08/hhhh/</id>
@@ -82,6 +59,29 @@
         &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;123456789&lt;/p&gt;
 
       
+    
+    </summary>
+    
+      <category term="小case" scheme="http://yoursite.com/categories/%E5%B0%8Fcase/"/>
+    
+    
+      <category term="hexo github 搭建博客" scheme="http://yoursite.com/tags/hexo-github-%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Bootstrap导航条遇到的小case</title>
+    <link href="http://yoursite.com/2018/10/08/bootstrap%E5%AF%BC%E8%88%AA%E6%9D%A1%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2018/10/08/bootstrap导航条问题/</id>
+    <published>2018-10-08T12:19:37.000Z</published>
+    <updated>2018-10-23T08:44:38.499Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="Bootstrap导航条的下拉列表显示不完全"><a href="#Bootstrap导航条的下拉列表显示不完全" class="headerlink" title="Bootstrap导航条的下拉列表显示不完全"></a>Bootstrap导航条的下拉列表显示不完全</h1><hr><h2 id="类名navbar不能设置高度"><a href="#类名navbar不能设置高度" class="headerlink" title="类名navbar不能设置高度"></a>类名navbar不能设置高度</h2><p><img src="https://wx1.sinaimg.cn/mw690/006oemdXly1fw13aq014cj30af0eat8v.jpg" alt="mahua"></p><a id="more"></a><p>设置高度就会让nav下拉的过程中出现导航条（如图右侧灰色的部分）</p><h2 id="bootstrap-中下拉列表中的两个div要同级-BING-QIE-一个设置position-relative-一个设置position-solutate"><a href="#bootstrap-中下拉列表中的两个div要同级-BING-QIE-一个设置position-relative-一个设置position-solutate" class="headerlink" title="bootstrap 中下拉列表中的两个div要同级 BING QIE 一个设置position:relative;一个设置position:solutate"></a>bootstrap 中下拉列表中的两个div要同级 BING QIE 一个设置position:relative;一个设置position:solutate</h2><p><img src="https://wx2.sinaimg.cn/mw690/006oemdXly1fw13nszpunj30hf07o3yi.jpg" alt="mahua"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Bootstrap导航条的下拉列表显示不完全&quot;&gt;&lt;a href=&quot;#Bootstrap导航条的下拉列表显示不完全&quot; class=&quot;headerlink&quot; title=&quot;Bootstrap导航条的下拉列表显示不完全&quot;&gt;&lt;/a&gt;Bootstrap导航条的下拉列表显示不完全&lt;/h1&gt;&lt;hr&gt;
+&lt;h2 id=&quot;类名navbar不能设置高度&quot;&gt;&lt;a href=&quot;#类名navbar不能设置高度&quot; class=&quot;headerlink&quot; title=&quot;类名navbar不能设置高度&quot;&gt;&lt;/a&gt;类名navbar不能设置高度&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://wx1.sinaimg.cn/mw690/006oemdXly1fw13aq014cj30af0eat8v.jpg&quot; alt=&quot;mahua&quot;&gt;&lt;/p&gt;
     
     </summary>
     
