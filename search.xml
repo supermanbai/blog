@@ -25,9 +25,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[case]]></title>
-    <url>%2F2018%2F10%2F08%2Fhhhh%2F</url>
-    <content type="text"><![CDATA[123456789]]></content>
+    <title><![CDATA[Bootstrap导航条遇到的小case]]></title>
+    <url>%2F2018%2F10%2F08%2Fbootstrap%E5%AF%BC%E8%88%AA%E6%9D%A1%E9%97%AE%E9%A2%98%2F</url>
+    <content type="text"><![CDATA[Bootstrap导航条的下拉列表显示不完全 类名navbar不能设置高度 设置高度就会让nav下拉的过程中出现导航条（如图右侧灰色的部分） bootstrap 中下拉列表中的两个div要同级 BING QIE 一个设置position:relative;一个设置position:solutate]]></content>
       <categories>
         <category>小case</category>
       </categories>
@@ -36,9 +36,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Bootstrap导航条遇到的小case]]></title>
-    <url>%2F2018%2F10%2F08%2Fbootstrap%E5%AF%BC%E8%88%AA%E6%9D%A1%E9%97%AE%E9%A2%98%2F</url>
-    <content type="text"><![CDATA[Bootstrap导航条的下拉列表显示不完全 类名navbar不能设置高度 设置高度就会让nav下拉的过程中出现导航条（如图右侧灰色的部分） bootstrap 中下拉列表中的两个div要同级 BING QIE 一个设置position:relative;一个设置position:solutate]]></content>
+    <title><![CDATA[case]]></title>
+    <url>%2F2018%2F10%2F08%2Fhhhh%2F</url>
+    <content type="text"><![CDATA[123456789]]></content>
       <categories>
         <category>小case</category>
       </categories>
